@@ -9,6 +9,9 @@
 // évite d'afficher ton adresse personnelle.
 const CONTACT_EMAIL = 'arthurbeucher@orange.fr';
 
+// Lien vers ton profil Instagram (utilisé partout sur le site : contact, tirages, visionneuse)
+const INSTAGRAM_URL = 'https://www.instagram.com/arthxr.cr3/';
+
 // Lien vers ton profil Are.na (laisse vide '' pour masquer le lien)
 const ARENA_URL = '';
 
