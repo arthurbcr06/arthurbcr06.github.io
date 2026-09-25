@@ -1,0 +1,2 @@
+Mets ici les photos de la galerie (JPG ou WebP, 2000 px max, noms sans espaces ni accents).
+Puis ajoute-les dans la liste LOCAL_PHOTOS de index.html — voir README.md, partie 1.
