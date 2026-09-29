@@ -1,88 +1,146 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Mentions légales — Arthur Beucher</title>
-<meta name="robots" content="noindex" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'" />
-<meta name="referrer" content="strict-origin-when-cross-origin" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%230b0b0a'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='28' fill='%23d9b56c'%3Eab%3C/text%3E%3C/svg%3E" />
-<script>try{var t=localStorage.getItem('site-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}</script>
-<style>
-  @font-face{ font-family:'Geist'; font-weight:400; font-display:swap; src:url(assets/fonts/geist-latin-400-normal.woff2) format('woff2'); }
-  @font-face{ font-family:'Geist'; font-weight:500; font-display:swap; src:url(assets/fonts/geist-latin-500-normal.woff2) format('woff2'); }
-  @font-face{ font-family:'Geist Mono'; font-weight:400; font-display:swap; src:url(assets/fonts/geist-mono-latin-400-normal.woff2) format('woff2'); }
-  @font-face{ font-family:'Instrument Serif'; font-style:italic; font-weight:400; font-display:swap; src:url(assets/fonts/instrument-serif-latin-400-italic.woff2) format('woff2'); }
-  :root{ --bg:#0b0b0a; --surface:#141412; --ink:#efece4; --muted:#8e8a7f; --line:rgba(239,236,228,.10); --accent:#d9b56c; color-scheme:dark; }
-  :root[data-theme="light"]{ --bg:#f3f0e8; --surface:#e9e5da; --ink:#131311; --muted:#6c675b; --line:rgba(19,19,17,.11); --accent:#94702a; color-scheme:light; }
-  *,*::before,*::after{ margin:0; padding:0; box-sizing:border-box; }
-  body{ background:var(--bg); color:var(--ink); font-family:'Geist', ui-sans-serif, system-ui, sans-serif; line-height:1.65; -webkit-font-smoothing:antialiased; }
-  a{ color:inherit; text-decoration:underline; text-underline-offset:3px; text-decoration-color:var(--accent); }
-  .wrap{ max-width:760px; margin:0 auto; padding:clamp(1.5rem,5vw,4rem) 16px 5rem; }
-  .back{ display:inline-flex; gap:.5rem; font-size:.9rem; color:var(--muted); text-decoration:none; }
-  .back:hover{ color:var(--ink); }
-  .eyebrow{ display:block; margin-top:3rem; font-family:'Geist Mono', ui-monospace, monospace; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
-  h1{ font-size:clamp(2.6rem,8vw,4.6rem); font-weight:500; letter-spacing:-.045em; line-height:.95; margin-top:.8rem; }
-  h1 em{ font-family:'Instrument Serif', Georgia, serif; font-weight:400; letter-spacing:-.02em; color:var(--accent); }
-  section{ margin-top:2.75rem; padding-top:1.5rem; border-top:1px solid var(--line); }
-  h2{ font-size:1.2rem; font-weight:500; letter-spacing:-.02em; margin-bottom:.75rem; }
-  p, li{ color:var(--muted); font-size:.98rem; }
-  p + p{ margin-top:.7rem; }
-  strong{ color:var(--ink); font-weight:500; }
-  ul{ padding-left:1.1rem; display:grid; gap:.45rem; }
-  .updated{ margin-top:3rem; font-family:'Geist Mono', ui-monospace, monospace; font-size:.75rem; color:var(--muted); }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Mentions légales, droits d’auteur et politique de confidentialité du portfolio d’Arthur Beucher.">
+  <link rel="canonical" href="https://arthurbcr06.github.io/mentions-legales.html">
+  <title>Mentions légales — Arthur Beucher</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23f2f0ed' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23c8a97e'/%3E%3C/svg%3E">
+  <style>
+    @font-face { font-family: 'Inter'; font-weight: 400; font-display: swap; src: url('fonts/inter-latin-400-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter'; font-weight: 600; font-display: swap; src: url('fonts/inter-latin-600-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'Inter Tight'; font-weight: 600; font-display: swap; src: url('fonts/inter-tight-latin-600-normal.woff2') format('woff2'); }
+    @font-face { font-family: 'Instrument Serif'; font-style: italic; font-display: swap; src: url('fonts/instrument-serif-latin-400-italic.woff2') format('woff2'); }
+    :root { color-scheme: dark; --bg: #0b0b0c; --surface: #131315; --fg: #f2f0ed; --muted: #9b9893; --dim: #62605c; --line: rgba(255,255,255,.08); --line-2: rgba(255,255,255,.16); --accent: #c8a97e; --gutter: clamp(16px, 4vw, 48px); }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg) radial-gradient(ellipse 80% 50% at 50% -10%, #1a1a1d, transparent 70%) no-repeat; color: var(--fg); font-family: 'Inter', system-ui, sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    a { color: var(--fg); text-underline-offset: 3px; text-decoration-color: var(--line-2); }
+    a:hover { text-decoration-color: var(--fg); }
+    :focus-visible { outline: 1.5px solid var(--fg); outline-offset: 4px; border-radius: 4px; }
+    .header { position: sticky; top: 0; z-index: 10; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background: rgba(11,11,12,.75); border-bottom: 1px solid var(--line); }
+    .header .in { max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .logo { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 600; text-decoration: none; letter-spacing: -.01em; }
+    .logo span { color: var(--muted); font-weight: 500; }
+    .back { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line-2); font-size: .88rem; text-decoration: none; transition: background .25s, color .25s; white-space: nowrap; }
+    .back:hover { background: var(--fg); color: var(--bg); }
+    main { max-width: 860px; margin: 0 auto; padding: clamp(40px, 7vw, 80px) var(--gutter) 80px; }
+    .kicker { color: var(--muted); font-size: .74rem; letter-spacing: .22em; text-transform: uppercase; margin: 0; }
+    h1 { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 600; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; line-height: 1.05; margin: 12px 0 10px; }
+    h1 em { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; color: var(--muted); }
+    .updated { color: var(--dim); font-size: .88rem; margin: 0 0 36px; }
+    nav.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 44px; }
+    nav.toc a { padding: 6px 13px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-size: .84rem; text-decoration: none; transition: border-color .25s, color .25s; }
+    nav.toc a:hover { color: var(--fg); border-color: var(--line-2); }
+    section { scroll-margin-top: 84px; padding: 28px 0; border-top: 1px solid var(--line); }
+    h2 { font-family: 'Inter Tight', 'Inter', sans-serif; font-weight: 600; font-size: 1.3rem; letter-spacing: -.02em; margin: 0 0 12px; display: flex; gap: 12px; align-items: baseline; }
+    h2 span { color: var(--dim); font-size: .85rem; font-weight: 500; font-family: 'Inter', sans-serif; }
+    p, li { color: #c9c6c1; font-size: .98rem; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    strong { color: var(--fg); font-weight: 600; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 22px; margin: 6px 0 14px; }
+    .card p { margin: 0; }
+    .card p + p { margin-top: 4px; }
+    .todo { background: rgba(200,169,126,.16); color: var(--accent); border: 1px dashed rgba(200,169,126,.5); border-radius: 6px; padding: 0 6px; }
+    footer { border-top: 1px solid var(--line); padding: 28px var(--gutter) 36px; text-align: center; color: var(--dim); font-size: .85rem; }
+    footer a { color: var(--muted); }
+  </style>
 </head>
 <body>
-  <main class="wrap">
-    <a class="back" href="index.html">← Retour au site</a>
-    <span class="eyebrow">Informations légales</span>
+  <header class="header">
+    <div class="in">
+      <a class="logo" href="index.html">ARTHUR <span>BEUCHER</span></a>
+      <a class="back" href="index.html">← Retour au portfolio</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="kicker">Informations légales</p>
     <h1>Mentions légales <em>&amp; confidentialité</em></h1>
+    <p class="updated">Dernière mise à jour : 29 septembre 2026</p>
 
-    <section>
-      <h2>Éditeur du site</h2>
-      <p><strong>Arthur Beucher</strong>, photographe — Angers, France.<br>
-      Contact : <a data-email href="#">par e-mail</a><br>
-      Directeur de la publication : Arthur Beucher.</p>
-      <!-- Si tu vends tes tirages en tant que micro-entrepreneur, la loi demande d'ajouter ici :
-           ton numéro SIREN, ton adresse professionnelle et un numéro de téléphone. -->
+    <nav class="toc" aria-label="Sommaire">
+      <a href="#editeur">Éditeur</a>
+      <a href="#hebergement">Hébergement</a>
+      <a href="#droits">Droits d’auteur</a>
+      <a href="#confidentialite">Données personnelles</a>
+      <a href="#cookies">Cookies</a>
+      <a href="#dons">Dons</a>
+      <a href="#credits">Crédits</a>
+    </nav>
+
+    <section id="editeur">
+      <h2><span>01</span>Éditeur du site</h2>
+      <p>Ce site est un portfolio photographique personnel, à but non commercial, édité par un particulier&nbsp;:</p>
+      <div class="card">
+        <p><strong>Arthur Beucher</strong>, Angers (France)</p>
+        <p>Contact&nbsp;: <a class="js-mail" href="#" data-u="arthurbeucher" data-d="orange.fr">arthurbeucher [at] orange.fr</a></p>
+        <p>Directeur de la publication&nbsp;: Arthur Beucher</p>
+      </div>
+      <p>Conformément à l’article 6 de la loi n°&nbsp;2004-575 du 21&nbsp;juin 2004 pour la confiance dans l’économie numérique (LCEN), l’éditeur a communiqué ses coordonnées complètes à l’hébergeur du site.</p>
     </section>
 
-    <section>
-      <h2>Hébergement</h2>
-      <p>GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — +1 877 448 4820 — <a href="https://github.com" rel="noopener">github.com</a></p>
+    <section id="hebergement">
+      <h2><span>02</span>Hébergement</h2>
+      <div class="card">
+        <p><strong>GitHub, Inc. (service GitHub Pages)</strong></p>
+        <p>88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis</p>
+        <p>Téléphone&nbsp;: +1 877 448 4820</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Propriété intellectuelle</h2>
-      <p>Toutes les photographies présentes sur ce site sont la propriété exclusive d'Arthur Beucher et sont protégées par le Code de la propriété intellectuelle.</p>
-      <p>Toute reproduction, diffusion, modification ou utilisation, même partielle, sans autorisation écrite préalable est interdite. Pour une licence d'utilisation ou un tirage, merci de <a data-email href="#">prendre contact</a>.</p>
+    <section id="droits">
+      <h2><span>03</span>Propriété intellectuelle</h2>
+      <p>L’ensemble des photographies, textes et éléments graphiques présents sur ce site sont la propriété exclusive d’<strong>Arthur Beucher</strong>, sauf mention contraire, et sont protégés par le Code de la propriété intellectuelle.</p>
+      <p>Toute reproduction, représentation, modification, publication ou diffusion, totale ou partielle, par quelque procédé que ce soit (téléchargement, capture d’écran, repartage sans crédit, utilisation commerciale…), est <strong>interdite sans l’autorisation écrite préalable</strong> de l’auteur (article L.122-4 du Code de la propriété intellectuelle).</p>
+      <p>Vous souhaitez utiliser une photo (article, projet, tirage)&nbsp;? Écrivez-moi&nbsp;: c’est souvent possible, avec autorisation et crédit. Partager le lien du site est bien sûr libre et apprécié.</p>
     </section>
 
-    <section id="donnees">
-      <h2>Données personnelles</h2>
+    <section id="confidentialite">
+      <h2><span>04</span>Données personnelles</h2>
+      <p><strong>Ce site ne collecte aucune donnée personnelle.</strong> Il ne contient ni formulaire, ni création de compte, ni outil de mesure d’audience, ni publicité, ni traceur.</p>
       <ul>
-        <li><strong>Aucun cookie</strong>, aucune mesure d'audience, aucune publicité. Les polices de caractères sont hébergées sur le site : l'afficher ne transmet votre adresse IP à aucun service tiers.</li>
-        <li><strong>Préférences d'affichage</strong> (thème clair ou sombre, taille des vignettes) : enregistrées uniquement dans votre navigateur, jamais transmises.</li>
-        <li><strong>Formulaire « Un mot »</strong> : votre nom (facultatif), votre note et votre message sont transmis par e-mail à l'éditeur via le service Formspree (Formspree, Inc., États-Unis). Ils servent uniquement à lire votre message et, s'il est retenu, à le publier sur ce site avec votre nom. Les messages non publiés sont supprimés au plus tard 12 mois après réception.</li>
-        <li><strong>Vos droits</strong> : vous pouvez demander à consulter, corriger ou supprimer vos données (y compris un avis publié) en écrivant à l'éditeur. Vous pouvez aussi adresser une réclamation à la <a href="https://www.cnil.fr" rel="noopener">CNIL</a>.</li>
-        <li><strong>Liens externes</strong> : Instagram et PayPal ont leurs propres règles de confidentialité, qui s'appliquent dès que vous quittez ce site.</li>
+        <li><strong>Polices et ressources&nbsp;:</strong> tout est hébergé sur le site lui-même. Aucune connexion n’est faite à un service tiers (Google ou autre) lors de votre visite.</li>
+        <li><strong>Journaux techniques&nbsp;:</strong> comme pour tout site, l’hébergeur peut enregistrer automatiquement des données techniques (adresse IP, date, page consultée, navigateur) pour assurer la sécurité et le bon fonctionnement du service. Ces données sont traitées par l’hébergeur selon sa propre politique de confidentialité.</li>
+        <li><strong>Liens externes&nbsp;:</strong> les liens vers Instagram et PayPal vous font quitter ce site. Les politiques de confidentialité de ces services s’appliquent alors.</li>
       </ul>
+      <p>Conformément au Règlement général sur la protection des données (RGPD) et à la loi «&nbsp;Informatique et Libertés&nbsp;», vous disposez d’un droit d’accès, de rectification, d’effacement et d’opposition sur les données vous concernant. Pour l’exercer, contactez&nbsp;: <a class="js-mail" href="#" data-u="arthurbeucher" data-d="orange.fr">arthurbeucher [at] orange.fr</a>. Vous pouvez aussi adresser une réclamation à la <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">CNIL</a>.</p>
     </section>
 
-    <p class="updated">Dernière mise à jour : 25 septembre 2026</p>
+    <section id="cookies">
+      <h2><span>05</span>Cookies</h2>
+      <p>Ce site <strong>ne dépose aucun cookie</strong> sur votre appareil et n’utilise aucune technologie de suivi. C’est pourquoi aucun bandeau de consentement ne vous est demandé.</p>
+    </section>
+
+    <section id="dons">
+      <h2><span>06</span>Dons</h2>
+      <p>Les dons sont <strong>facultatifs, libres et sans contrepartie</strong>. Ils servent à financer du matériel photo et de nouveaux déplacements.</p>
+      <p>Le paiement est entièrement géré par <strong>PayPal</strong>&nbsp;: aucune donnée bancaire ne transite par ce site. PayPal transmet uniquement à l’éditeur les informations liées au don (nom, adresse e-mail et montant), qui ne sont utilisées que pour le suivi du don et, le cas échéant, pour vous remercier. Elles ne sont jamais revendues ni partagées.</p>
+    </section>
+
+    <section id="credits">
+      <h2><span>07</span>Crédits &amp; responsabilité</h2>
+      <ul>
+        <li>Photographies, textes et conception du site&nbsp;: Arthur Beucher.</li>
+        <li>Fond de carte d’Angers&nbsp;: illustration cartographique d’Angers, utilisée comme fond décoratif.</li>
+        <li>Polices&nbsp;: Inter, Inter Tight et Instrument Serif, sous licence SIL Open Font License.</li>
+      </ul>
+      <p>L’éditeur s’efforce de fournir des informations exactes mais ne saurait être tenu responsable du contenu des sites externes vers lesquels pointent des liens. Le présent site est soumis au droit français.</p>
+    </section>
   </main>
-  <script src="reglages.js"></script>
+
+  <footer>
+    © <span id="year">2026</span> Arthur Beucher · <a href="index.html">Portfolio</a> · <a href="https://www.instagram.com/arthxr.cr3/" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </footer>
   <script>
-    (function(){
-      var email = typeof CONTACT_EMAIL !== 'undefined' ? CONTACT_EMAIL : '';
-      if (!email) return;
-      document.querySelectorAll('[data-email]').forEach(function(a){
-        a.href = 'mailto:' + email;
-        if (a.textContent === 'par e-mail') a.textContent = email;
-      });
-    })();
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // L'adresse est assemblée ici pour éviter qu'elle soit aspirée par les robots de spam
+    document.querySelectorAll('.js-mail').forEach(a => { const m = a.dataset.u + '@' + a.dataset.d; a.href = 'mailto:' + m; a.textContent = m; });
   </script>
 </body>
 </html>
